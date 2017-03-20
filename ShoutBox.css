@@ -1,85 +1,17 @@
 #ajax_loading {
-  /*background: -moz-linear-gradient(center top , #95C715 0%, #7BA60D 100%) repeat scroll 0 0 transparent;*/
-  background: url("http://i34.servimg.com/u/f34/18/17/62/92/ajaxlo10.png") repeat-x scroll 0 0 transparent;
-  border: 1px solid #7BA60D;
-  border-radius: 0 0 5px 5px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(255, 255, 255, 0.2) inset;
-  color: #FFFFFF;
-  left: 46%;
-  padding: 5px 0 8px;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 8%;
-  z-index: 10000;
+	background: -moz-linear-gradient(center top , #95C715 0%, #7BA60D 100%) repeat scroll 0 0 transparent;
+	border: 1px solid #7BA60D;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(255, 255, 255, 0.2) inset;
+	color: #FFFFFF;
+	left: 46%;
+	padding: 5px 0 8px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 8%;
+	z-index: 10000;
 }
-                #board_stats ul {
-                    text-align: center;
-                }
-                .ipsType_small {
-                    font-size: 12px;
-                }
-                #board_stats li {
-                    margin-right: 20px;
-                }
-                .ipsList_inline > li:first-child {
-                    margin-left: 0;
-                }
-                .ipsList_inline > li {
-                    display: inline-block;
-                    margin: 0 3px;
-                }
-                #board_stats .value {
-                    background: none repeat scroll 0 0 #E2E2E2;
-                    border-radius: 2px 2px 2px 2px;
-                    color: #4A4A4A;
-                    display: inline-block;
-                    font-weight: bold;
-                    margin-right: 3px;
-                    padding: 2px 6px;
-                }
-				.cke_dialog_tabs {
-				    background: none repeat scroll 0 0 #2C5687 !important;
-				    margin: -4px 0 -1px;
-				    padding-left: 5px;
-				    z-index: 2;
-				}
-				.cke_dialog_tabs *, .cke_dialog_tabs a:hover, .cke_dialog_tabs a:link, .cke_dialog_tabs a:visited, .cke_dialog_tabs a:active {
-				    background: none repeat scroll 0 0 transparent;
-				    border: 0 none;
-				    border-collapse: collapse;
-				    color: #444444;
-				    cursor: auto;
-				    font: 11px "Helvetica Neue",Arial,Helvetica,Tahoma,Verdana,Sans-Serif !important;
-				    height: auto;
-				    margin: 0;
-				    padding: 0;
-				    text-align: left;
-				    text-decoration: none;
-				    vertical-align: baseline;
-				    white-space: nowrap;
-				    width: auto;
-				}
-				.cke_dialog_tabs a.cke_dialog_tab_selected, .cke_dialog_tabs a.cke_dialog_tab_selected:link, .cke_dialog_tabs a.cke_dialog_tab_selected:active, .cke_dialog_tabs a.cke_dialog_tab_selected:hover, .cke_dialog_tabs a.cke_dialog_tab_selected:visited {
-				    background: none repeat scroll 0 0 #EBF0F3 !important;
-				    border-bottom: 1px solid #EBF0F3;
-				    cursor: default !important;
-				    font-weight: normal;
-				}
-				.cke_dialog_tabs a.cke_dialog_tab {
-				    background-color: #DEDEDE;
-				}
-				.cke_dialog_tabs a.cke_dialog_tab:hover {
-				    background-color: #FFFFFF;
-				}
-				.cke_dialog_tabs a.cke_dialog_tab, .cke_dialog_tabs a.cke_dialog_tab:link, .cke_dialog_tabs a.cke_dialog_tab:active, .cke_dialog_tabs a.cke_dialog_tab:hover, .cke_dialog_tabs a.cke_dialog_tab:visited {
-				    background: none repeat scroll 0 0 #EBF0F3
-				    color: #444444;
-				    cursor: pointer;
-				    display: inline-block;
-				    height: 14px;
-				    padding: 5px 12px 2px;
-				}
 .popupWrapper {
     background-color: rgba(70, 70, 70, 0.6);
     border-radius: 4px 4px 4px 4px;
@@ -124,7 +56,7 @@
     opacity: 0.8;
 }
 .ipsSmileyTray .ipsSmileyTray_next {
-    background: url("http://i78.servimg.com/u/f78/18/17/62/92/next10.png") no-repeat scroll 0 10px transparent;
+    background: url("http://www.autoitbrasil.com/public/style_images/master/editor/next.png") no-repeat scroll 0 10px transparent;
     cursor: pointer;
     display: inline-block;
     height: 30px;
@@ -134,7 +66,7 @@
     width: 13px;
 }
 .ipsSmileyTray .ipsSmileyTray_prev {
-    background: url("http://i78.servimg.com/u/f78/18/17/62/92/prev10.png") no-repeat scroll 0 10px transparent;
+    background: url("http://www.autoitbrasil.com/public/style_images/master/editor/prev.png") no-repeat scroll 0 10px transparent;
     cursor: pointer;
     display: inline-block;
     height: 30px;
@@ -143,6 +75,1064 @@
     top: 4px;
     width: 13px;
 }
+.cke_skin_ips *, .cke_skin_ips a:hover, .cke_skin_ips a:link, .cke_skin_ips a:visited, .cke_skin_ips a:active {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-collapse: collapse;
+    color: #444444;
+    cursor: auto;
+    font: 11px "Helvetica Neue",Arial,Helvetica,Tahoma,Verdana,Sans-Serif;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+.cke_skin_ips .cke_rtl *, .cke_skin_ips .cke_rtl a:hover, .cke_skin_ips .cke_rtl a:link, .cke_skin_ips .cke_rtl a:visited, .cke_skin_ips .cke_rtl a:active, .cke_rtl .cke_skin_ips *, .cke_rtl .cke_skin_ips a:hover, .cke_rtl .cke_skin_ips a:link, .cke_rtl .cke_skin_ips a:visited, .cke_rtl .cke_skin_ips a:active {
+    text-align: right;
+}
+.cke_skin_ips iframe {
+    vertical-align: inherit;
+}
+.cke_skin_ips textarea {
+    white-space: pre;
+}
+.cke_skin_ips .cke_browser_gecko textarea {
+    cursor: text;
+}
+.cke_skin_ips .cke_browser_gecko textarea[disabled] {
+    cursor: default;
+}
+.cke_skin_ips input[type="text"], .cke_skin_ips input[type="password"] {
+    cursor: text;
+}
+.cke_skin_ips input[type="text"][disabled], .cke_skin_ips input[type="password"][disabled] {
+    cursor: default;
+}
+.cke_skin_ips fieldset {
+    border: 2px groove #E0DFE3;
+    padding: 10px;
+}
+.cke_skin_ips {
+    display: block;
+    margin-bottom: 5px;
+}
+.cke_skin_ips {
+    margin-bottom: 0 !important;
+}
+span.cke_skin_ips {
+    border: 0 none !important;
+}
+.cke_skin_ips span.cke_browser_webkit, .cke_skin_ips span.cke_browser_gecko18 {
+    display: block;
+}
+.cke_skin_ips .cke_wrapper {
+    background-color: #D3D3D3;
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 0 -1950px;
+    background-repeat: repeat-x;
+    display: block;
+    padding: 5px;
+}
+.cke_skin_ips .cke_wrapper {
+    background-color: #E4EBF2 !important;
+    background-image: none !important;
+    border: 2px solid #D5DDE5 !important;
+    padding: 0 5px 0 3px !important;
+}
+.cke_shared .cke_skin_ips .cke_wrapper {
+    padding-bottom: 0;
+}
+.cke_skin_ips .cke_browser_ie6 .cke_wrapper, .cke_skin_ips .cke_browser_iequirks .cke_wrapper {
+    background-image: none;
+}
+.cke_skin_ips .cke_editor {
+    display: inline-table;
+    width: 100%;
+}
+.cke_skin_ips .ltr .cke_browser_ie iframe {
+    margin-right: -10px;
+}
+.cke_skin_ips .rtl .cke_browser_ie iframe {
+    margin-left: -10px;
+}
+.cke_skin_ips .rtl .cke_path {
+    float: right;
+    padding-right: 5px;
+}
+.cke_skin_ips .cke_browser_opera .cke_editor.cke_skin_ips .cke_resizer {
+    display: table;
+}
+.cke_skin_ips .cke_contents {
+    margin: 5px;
+}
+.cke_skin_ips .cke_hc .cke_contents {
+    border: 1px solid black;
+}
+.cke_skin_ips .cke_contents iframe {
+    background-color: #FFFFFF;
+    border-color: #BBBBBB #DDDDDD #DDDDDD #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+}
+.cke_skin_ips .cke_focus {
+}
+.cke_skin_ips textarea.cke_source {
+    background-color: #FFFFFF;
+    font-family: 'Courier New',Monospace;
+    font-size: small;
+    white-space: pre;
+}
+.cke_skin_ips .cke_browser_iequirks textarea.cke_source {
+}
+.cke_skin_ips .cke_resizer {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 0 -1428px;
+    background-repeat: no-repeat;
+    cursor: se-resize;
+    display: block;
+    float: right;
+    height: 12px;
+    margin-top: 9px;
+    width: 12px;
+}
+.cke_skin_ips .cke_browser_air .cke_resizer, .cke_skin_ips .cke_browser_air .cke_rtl .cke_resizer {
+    cursor: move;
+}
+.cke_skin_ips .cke_rtl .cke_resizer {
+    background-position: 0 -1455px;
+    cursor: sw-resize;
+    float: left;
+}
+.cke_skin_ips .cke_resizer_horizontal, .cke_skin_ips .cke_rtl .cke_resizer_horizontal {
+    cursor: e-resize;
+}
+.cke_skin_ips .cke_resizer_vertical, .cke_skin_ips .cke_rtl .cke_resizer_vertical {
+    cursor: n-resize;
+}
+.cke_skin_ips .cke_maximized .cke_resizer {
+    /*display: none;*/
+}
+.cke_skin_ips .cke_browser_ie6 .cke_contents textarea, .cke_skin_ips .cke_browser_ie7 .cke_contents textarea {
+    position: absolute;
+}
+.cke_skin_ips .cke_browser_ie.cke_browser_quirks .cke_contents iframe {
+    position: absolute;
+    top: 0;
+}
+.cke_skin_ips .cke_browser_ie6 .cke_editor, .cke_skin_ips .cke_browser_ie7 .cke_editor {
+    display: inline-block;
+}
+.cke_skin_ips .cke_browser_ie6 .cke_editor, .cke_shared .cke_skin_ips .cke_browser_ie7 .cke_wrapper {
+    padding-bottom: 5px;
+}
+.cke_skin_ips .cke_voice_label {
+    display: none;
+}
+.cke_skin_ips legend.cke_voice_label {
+    display: none;
+}
+.cke_skin_ips .cke_browser_ie legend.cke_voice_label {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+.cke_skin_ips .cke_path {
+    color: #D3D3D3 !important;
+    float: left;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.cke_skin_ips .cke_path a, .cke_skin_ips .cke_path a:active, .cke_skin_ips .cke_path a:visited, .cke_skin_ips .cke_path a:hover {
+    color: #676767 !important;
+    cursor: pointer;
+}
+.cke_skin_ips .cke_rtl .cke_path {
+    float: right;
+    padding-right: 5px;
+}
+.cke_skin_ips .cke_panel {
+    background-color: #FFFFFF;
+    border: 1px solid #8F8F73;
+    border-radius: 3px 3px 3px 3px;
+    height: 100px;
+    overflow: hidden;
+    width: 120px;
+}
+.cke_skin_ips .cke_contextmenu {
+    margin: 0;
+}
+.cke_skin_ips .cke_panel iframe {
+    height: 100%;
+    width: 100%;
+}
+html.cke_skin_ips_container {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body.cke_panel_frame {
+    overflow: auto;
+}
+.cke_panel_frame .cke_label {
+    /*display: none;*/
+}
+ul.cke_panel_list {
+    list-style-type: none;
+    margin: 3px;
+    padding: 0;
+    white-space: nowrap;
+}
+li.cke_panel_listItem {
+    margin: 0;
+}
+.cke_skin_ips .cke_button a:hover, .cke_skin_ips .cke_button a:focus, .cke_skin_ips .cke_button a:active {
+    background-color: #D5DDE5 !important;
+}
+.cke_skin_ips .cke_button a.cke_on:hover, .cke_skin_ips .cke_button a.cke_on:focus, .cke_skin_ips .cke_button a.cke_on:active {
+    background-color: #86CAFF !important;
+}
+.cke_panel_listItem a {
+    border: 1px solid #FFFFFF;
+    color: inherit !important;
+    display: block;
+    overflow: hidden;
+    padding: 2px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+}
+* html .cke_panel_listItem a {
+    color: #000000;
+    width: 100%;
+}
+:first-child + html .cke_panel_listItem a {
+    color: #000000;
+}
+.cke_panel_listItem.cke_selected a {
+    background-color: #E9F5FF;
+    border: 1px solid #CCCCCC;
+}
+.cke_panel_listItem a:hover, .cke_panel_listItem a:focus, .cke_panel_listItem a:active {
+    background-color: #DFF1FF;
+    border-color: #316AC5;
+}
+.cke_hc .cke_panel_listItem.cke_selected a, .cke_hc .cke_panel_listItem a:hover, .cke_hc .cke_panel_listItem a:focus, .cke_hc .cke_panel_listItem a:active {
+    border-width: 3px;
+    padding: 0;
+}
+.cke_panel_grouptitle {
+    background-color: #DCDCDC;
+    color: #000000;
+    font-family: 'Microsoft Sans Serif',Tahoma,Arial,Verdana,Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px;
+    white-space: nowrap;
+}
+.cke_panel_listItem p, .cke_panel_listItem h1, .cke_panel_listItem h2, .cke_panel_listItem h3, .cke_panel_listItem h4, .cke_panel_listItem h5, .cke_panel_listItem h6, .cke_panel_listItem pre {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.cke_skin_ips .cke_button_textcolor_panel, .cke_skin_ips .cke_button_bgcolor_panel {
+    height: 135px;
+    width: 150px;
+}
+.cke_colorblock {
+    font-family: 'Microsoft Sans Serif',Tahoma,Arial,Verdana,Sans-Serif;
+    font-size: 11px;
+    padding: 3px;
+}
+.cke_colorblock, .cke_colorblock a {
+    color: #000000;
+    text-decoration: none;
+}
+span.cke_colorbox {
+    border: 1px solid #808080;
+    float: left;
+    height: 10px;
+    width: 10px;
+}
+.cke_rtl span.cke_colorbox {
+    float: right;
+}
+a.cke_colorbox {
+    border: 1px solid #FFFFFF;
+    float: left;
+    padding: 2px;
+}
+.cke_rtl a.cke_colorbox {
+    float: right;
+}
+a.cke_colorbox:hover, a.cke_colorbox:focus, a.cke_colorbox:active {
+    background-color: #DFF1FF;
+    border: 1px solid #316AC5;
+}
+a.cke_colorauto, a.cke_colormore {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    display: block;
+    padding: 2px;
+}
+a.cke_colorauto:hover, a.cke_colormore:hover, a.cke_colorauto:focus, a.cke_colormore:focus, a.cke_colorauto:active, a.cke_colormore:active {
+    background-color: #DFF1FF;
+    border: 1px solid #316AC5;
+}
+.cke_skin_ips .cke_browser_webkit .cke_toolbox, .cke_skin_ips .cke_browser_webkit .cke_toolbox > span {
+    white-space: normal;
+}
+.cke_skin_ips .cke_toolbox {
+    clear: both;
+    padding-bottom: 1px;
+}
+.cke_skin_ips a.cke_toolbox_collapser, .cke_skin_ips a.cke_toolbox_collapser:hover {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 3px -1366px;
+    background-repeat: no-repeat;
+    border: 1px outset #D3D3D3;
+    cursor: pointer;
+    float: right;
+    height: 11px;
+    margin: 11px 0 2px;
+    width: 11px;
+}
+.cke_skin_ips .cke_rtl a.cke_toolbox_collapser, .cke_skin_ips .cke_rtl a.cke_toolbox_collapser:hover {
+    float: left;
+}
+.cke_skin_ips a.cke_toolbox_collapser span {
+    /*display: none;*/
+}
+.cke_skin_ips .cke_hc a.cke_toolbox_collapser span {
+    display: inline;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+}
+.cke_skin_ips a.cke_toolbox_collapser_min, .cke_skin_ips a.cke_toolbox_collapser_min:hover {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 4px -1387px;
+    background-repeat: no-repeat;
+    margin: 2px 4px;
+}
+.cke_skin_ips .cke_rtl a.cke_toolbox_collapser_min, .cke_skin_ips .cke_rtl a.cke_toolbox_collapser_min:hover {
+    background-position: 4px -1408px;
+}
+.cke_skin_ips .cke_toolbar {
+    display: inline;
+    margin-top: 1px;
+}
+.cke_skin_ips .cke_separator {
+    border-left: 1px solid #D5DDE5;
+    display: inline-block !important;
+    float: left;
+    height: 30px;
+    margin: 0 2px;
+}
+.cke_skin_ips .cke_break {
+    clear: left;
+    font-size: 0;
+}
+.cke_skin_ips .cke_rtl .cke_break {
+    clear: right;
+}
+.cke_skin_ips .cke_toolbar_start {
+    display: none;
+}
+.cke_skin_ips .cke_toolgroup {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-radius: 2px 2px 2px 2px;
+    display: inline;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    padding: 2px;
+}
+.cke_skin_ips .cke_toolgroup {
+    display: block;
+    height: 22px;
+}
+.cke_skin_ips .cke_toolgroup {
+    margin-right: 0 !important;
+}
+.cke_skin_ips .cke_toolgroup {
+    background-color: transparent !important;
+}
+.cke_skin_ips .cke_rtl .cke_toolgroup {
+    float: right;
+    margin-left: 6px;
+    margin-right: 0;
+}
+.cke_skin_ips .cke_rtl .cke_separator {
+    float: right !important;
+}
+.cke_skin_ips .cke_button a, .cke_skin_ips .cke_button a:hover, .cke_skin_ips .cke_button a:focus, .cke_skin_ips .cke_button a:active, .cke_skin_ips .cke_button a.cke_off {
+    border-radius: 3px 3px 3px 3px;
+    cursor: default;
+    display: inline-block;
+    height: 18px;
+    outline: medium none;
+    padding: 3px 5px;
+}
+.cke_skin_ips .cke_button a, .cke_skin_ips .cke_button a.cke_off {
+}
+.cke_skin_ips .cke_hc .cke_button a, .cke_skin_ips .cke_hc .cke_button a.cke_off {
+    border: 1px solid white;
+    opacity: 1;
+}
+.cke_skin_ips .cke_button a.cke_on {
+    background-color: #F0F0F0;
+    border: 1px solid #BBBBBB;
+    opacity: 1;
+    padding: 2px 4px;
+}
+.cke_skin_ips .cke_hc .cke_button a.cke_on {
+    border-width: 3px;
+    padding: 0 2px !important;
+}
+.cke_skin_ips .cke_button a.cke_disabled * {
+    opacity: 0.3;
+}
+.cke_skin_ips .cke_browser_ie .cke_button a.cke_disabled *, .cke_skin_ips .cke_browser_ie a.cke_button:hover .cke_disabled * {
+}
+.cke_skin_ips .cke_browser_ie .cke_rtl .cke_button a.cke_disabled *, .cke_skin_ips .cke_browser_ie .cke_rtl a.cke_button:hover .cke_disabled * {
+}
+.cke_skin_ips .cke_browser_ie6 .cke_button a.cke_disabled *, .cke_skin_ips .cke_browser_ie6 a.cke_button:hover .cke_disabled * {
+}
+.cke_skin_ips .cke_hc .cke_button a.cke_disabled *, .cke_skin_ips .cke_browser_ie.cke_hc a.cke_button:hover .cke_disabled * {
+    opacity: 0.6;
+}
+.cke_skin_ips .cke_button a.cke_on:hover, .cke_skin_ips .cke_button a.cke_on:focus, .cke_skin_ips .cke_button a.cke_on:active, .cke_skin_ips .cke_button a.cke_off:hover, .cke_skin_ips .cke_button a.cke_off:focus, .cke_skin_ips .cke_button a.cke_off:active {
+    opacity: 1;
+}
+.cke_skin_ips .cke_button a:hover, .cke_skin_ips .cke_button a:focus, .cke_skin_ips .cke_button a:active {
+    background-color: #DFF1FF;
+}
+.cke_skin_ips .cke_button a.cke_on:hover, .cke_skin_ips .cke_button a.cke_on:focus, .cke_skin_ips .cke_button a.cke_on:active {
+    background-color: #86CAFF;
+}
+.cke_skin_ips .cke_hc .cke_button a:hover, .cke_skin_ips .cke_hc .cke_button a:focus, .cke_skin_ips .cke_hc .cke_button a:active {
+    border-width: 3px;
+    padding: 0 2px !important;
+}
+.cke_skin_ips .cke_button .cke_icon {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/icons10.png");
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    cursor: default;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    margin-top: 1px;
+    width: 16px;
+}
+.cke_skin_ips .cke_rtl .cke_button .cke_icon {
+    background-image: url("icons_rtl.png");
+}
+.cke_skin_ips .cke_browser_ie .cke_button .cke_icon {
+}
+.cke_skin_ips .cke_browser_ie .cke_rtl .cke_button .cke_icon {
+}
+.cke_skin_ips .cke_browser_ie6 .cke_button .cke_icon, .cke_skin_ips .cke_browser_ie6 .cke_rtl .cke_button .cke_icon {
+}
+.cke_skin_ips .cke_rtl .cke_button .cke_icon {
+    float: right;
+}
+.cke_skin_ips .cke_button .cke_label {
+    cursor: default;
+    display: none;
+    float: left;
+    line-height: 18px;
+    padding-left: 3px;
+    vertical-align: middle;
+}
+.cke_skin_ips .cke_rtl .cke_button .cke_label {
+    float: right;
+    padding-left: 0;
+    padding-right: 3px;
+}
+.cke_skin_ips .cke_hc .cke_button .cke_label {
+    display: inline-block;
+    padding: 0;
+}
+.cke_skin_ips .cke_hc .cke_button .cke_icon {
+    display: none;
+}
+.cke_skin_ips .cke_accessibility {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+.cke_skin_ips .cke_button .cke_buttonarrow {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 2px -1469px;
+    background-repeat: no-repeat;
+    cursor: default;
+    display: inline-block;
+    float: left;
+    height: 17px;
+    width: 8px;
+}
+.cke_skin_ips .cke_browser_ie .cke_button .cke_buttonarrow {
+}
+.cke_skin_ips .cke_browser_ie6 .cke_button .cke_buttonarrow {
+}
+.cke_skin_ips .cke_rtl .cke_button .cke_buttonarrow {
+    background-position: 0 -1469px;
+    float: right;
+}
+.cke_skin_ips .cke_browser_gecko .cke_toolbar, .cke_skin_ips .cke_browser_gecko .cke_button a, .cke_skin_ips .cke_browser_gecko .cke_button a.cke_off, .cke_skin_ips .cke_browser_gecko .cke_button .cke_icon, .cke_skin_ips .cke_browser_gecko .cke_button .cke_buttonarrow, .cke_skin_ips .cke_browser_gecko .cke_separator, .cke_skin_ips .cke_browser_gecko .cke_toolbar_start {
+    display: block;
+    float: left;
+}
+.cke_skin_ips .cke_browser_gecko.cke_hc .cke_button .cke_icon {
+    display: none;
+}
+.cke_skin_ips .cke_browser_gecko .cke_rtl .cke_toolbar, .cke_skin_ips .cke_browser_gecko .cke_rtl .cke_button a, .cke_skin_ips .cke_browser_gecko .cke_rtl.cke_button a.cke_off, .cke_skin_ips .cke_browser_gecko .cke_rtl .cke_button .cke_icon, .cke_skin_ips .cke_browser_gecko .cke_rtl .cke_button .cke_buttonarrow, .cke_skin_ips .cke_browser_gecko .cke_rtl .cke_toolbar_start {
+    float: right;
+}
+.cke_skin_ips .cke_browser_gecko .cke_button .cke_label, .cke_skin_ips .cke_browser_gecko .cke_break {
+    float: left;
+}
+.cke_skin_ips .cke_browser_gecko .cke_rtl .cke_button .cke_label, .cke_skin_ips .cke_browser_gecko .cke_rtl .cke_break {
+    float: right;
+}
+.cke_skin_ips .cke_browser_ie .cke_rtl .cke_button .cke_icon, .cke_skin_ips .cke_browser_ie .cke_rtl .cke_button .cke_label, .cke_skin_ips .cke_browser_ie .cke_rtl .cke_button .cke_buttonarrow {
+    float: none;
+}
+.cke_skin_ips .cke_browser_webkit .cke_toolbar {
+    float: left;
+}
+.cke_skin_ips .cke_browser_webkit .cke_rtl .cke_toolbar {
+    float: right;
+}
+.cke_skin_ips .cke_browser_ie8 .cke_button .cke_label, .cke_skin_ips .cke_browser_opera .cke_button .cke_label, .cke_skin_ips .cke_browser_webkit .cke_button .cke_label {
+    line-height: 20px;
+}
+.cke_skin_ips .cke_browser_opera.cke_browser_quirks .cke_button .cke_label, .cke_skin_ips .cke_browser_iequirks .cke_button .cke_label {
+    line-height: 17px;
+}
+.cke_skin_ips .cke_browser_ie .cke_rcombo, .cke_skin_ips .cke_browser_ie .cke_rcombo * {
+    cursor: default;
+}
+.cke_skin_ips .cke_browser_ie .cke_toolbox {
+    padding-bottom: 5px;
+}
+.cke_shared .cke_skin_ips .cke_browser_ie .cke_toolbox {
+    padding-bottom: 0;
+}
+.cke_skin_ips .cke_contextmenu {
+    padding: 2px;
+}
+.cke_skin_ips .cke_menuitem a {
+    display: block;
+}
+.cke_skin_ips .cke_menuitem span {
+    cursor: default;
+}
+.cke_skin_ips .cke_menuitem a:hover, .cke_skin_ips .cke_menuitem a:focus, .cke_skin_ips .cke_menuitem a:active {
+    background-color: #D3D3D3;
+    display: block;
+}
+.cke_hc .cke_menuitem a:hover, .cke_hc .cke_menuitem a:focus, .cke_hc .cke_menuitem a:active {
+    border: 2px solid;
+}
+.cke_skin_ips .cke_menuitem .cke_icon {
+    background-color: transparent;
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/icons10.png");
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+.cke_rtl .cke_skin_ips .cke_menuitem .cke_icon {
+    background-image: url("icons_rtl.png");
+}
+.cke_browser_ie .cke_skin_ips .cke_menuitem .cke_icon {
+}
+.cke_browser_ie.cke_rtl .cke_skin_ips .cke_menuitem .cke_icon {
+}
+.cke_browser_ie6 .cke_skin_ips .cke_menuitem .cke_icon {
+}
+.cke_skin_ips .cke_menuitem .cke_disabled .cke_icon {
+    opacity: 0.7;
+}
+.cke_browser_ie .cke_skin_ips .cke_menuitem .cke_disabled .cke_icon {
+}
+.cke_browser_ie.cke_rtl .cke_skin_ips .cke_menuitem .cke_disabled .cke_icon {
+}
+.cke_browser_ie6 .cke_skin_ips .cke_menuitem .cke_disabled .cke_icon {
+}
+.cke_skin_ips .cke_menuitem .cke_icon_wrapper {
+    background-color: #E4EBF2;
+    border: 4px solid #E4EBF2;
+    clear: both;
+    float: left;
+    height: 16px;
+    opacity: 0.7;
+    width: 16px;
+}
+.cke_skin_ips .cke_menuitem.cke_noalphafix .cke_icon_wrapper .cke_icon {
+    height: 20px;
+    margin-left: -2px;
+    margin-top: -2px;
+    width: 20px;
+}
+.cke_browser_ie9 .cke_skin_ips .cke_menuitem .cke_icon_wrapper {
+    height: 24px;
+    width: 24px;
+}
+.cke_rtl .cke_skin_ips .cke_menuitem .cke_icon_wrapper {
+    float: right;
+}
+.cke_skin_ips .cke_menuitem a:hover .cke_icon_wrapper, .cke_skin_ips .cke_menuitem a:focus .cke_icon_wrapper, .cke_skin_ips .cke_menuitem a:active .cke_icon_wrapper {
+    background-color: #9D9D9D;
+    border: 4px solid #9D9D9D;
+    opacity: 0.7;
+}
+.cke_skin_ips .cke_menuitem a.cke_disabled:hover .cke_icon_wrapper, .cke_skin_ips .cke_menuitem a.cke_disabled:focus .cke_icon_wrapper, .cke_skin_ips .cke_menuitem a.cke_disabled:active .cke_icon_wrapper {
+    background-color: #D3D3D3;
+    border: 4px solid #D3D3D3;
+}
+.cke_skin_ips .cke_menuitem .cke_label {
+    background-color: #FFFFFF;
+    display: block;
+    height: 19px;
+    margin-left: 24px;
+    padding-left: 4px;
+    padding-right: 3px;
+    padding-top: 5px;
+}
+.cke_browser_ie9 .cke_skin_ips .cke_menuitem .cke_label {
+    height: 24px;
+}
+.cke_skin_ips .cke_frameLoaded .cke_menuitem .cke_label {
+    opacity: 0.7;
+}
+.cke_rtl .cke_skin_ips .cke_menuitem .cke_label {
+    margin-left: 0;
+    margin-right: 28px;
+    padding-left: 3px;
+    padding-right: 0;
+}
+.cke_skin_ips .cke_menuitem a.cke_disabled .cke_label {
+    opacity: 0.3;
+}
+.cke_button_ipsmedia span.cke_label {
+    display: inline !important;
+}
+.cke_top {
+    background: url("http://www.autoitbrasil.com/public/style_images/master/editor/toolbar_bg.png") repeat-x scroll 0 0 #E4EBF2 !important;
+}
+.cke_skin_ips .cke_menuitem a:hover .cke_label, .cke_skin_ips .cke_menuitem a:focus .cke_label, .cke_skin_ips .cke_menuitem a:active .cke_label {
+    background-color: #D3D3D3;
+}
+.cke_skin_ips .cke_menuitem a.cke_disabled:hover .cke_label, .cke_skin_ips .cke_menuitem a.cke_disabled:focus .cke_label, .cke_skin_ips .cke_menuitem a.cke_disabled:active .cke_label {
+    background-color: transparent;
+}
+.cke_skin_ips .cke_menuseparator {
+    background-color: #D3D3D3;
+    height: 2px;
+    opacity: 0.7;
+}
+.cke_skin_ips .cke_menuarrow {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 0 -1411px;
+    background-repeat: no-repeat;
+    float: right;
+    height: 5px;
+    margin-right: 2px;
+    margin-top: 3px;
+    width: 3px;
+}
+.cke_rtl .cke_skin_ips .cke_menuarrow {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite11.png");
+    background-position: 0 -1390px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 2px;
+    margin-right: 0;
+}
+.cke_skin_ips .cke_menuarrow span {
+    display: none;
+}
+.cke_hc .cke_skin_ips .cke_menuarrow {
+    margin-top: 0;
+    width: auto;
+}
+.cke_hc .cke_skin_ips .cke_menuarrow span {
+    display: inline;
+}
+.cke_browser_ie.cke_ltr .cke_skin_ips .cke_menuarrow {
+    position: absolute;
+    right: 2px;
+}
+.cke_browser_ie.cke_rtl .cke_skin_ips .cke_menuarrow {
+    left: 2px;
+    position: absolute;
+}
+.cke_skin_ips .cke_rcombo {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+.cke_skin_ips .cke_rcombopanel {
+    border: 1px solid #AAAAAA;
+    border-top-left-radius: 0;
+}
+.cke_skin_ips .cke_rcombo a {
+    display: inline-block;
+    float: left;
+    opacity: 0.7;
+}
+.cke_skin_ips .cke_rcombo .cke_label {
+    cursor: default;
+    display: inline-block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding-left: 4px;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.cke_skin_ips .cke_rtl .cke_rcombo .cke_label {
+    float: right;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.cke_skin_ips .cke_rcombo .cke_text {
+    background-color: #FFFFFF;
+    border: 1px solid #8F8F73;
+    cursor: default;
+    display: inline-block;
+    height: 14px;
+    overflow: hidden;
+    padding: 4px 5px;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    width: 60px;
+}
+.cke_skin_ips .cke_ltr .cke_rcombo .cke_text {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.cke_skin_ips .cke_rtl .cke_rcombo .cke_text {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.cke_skin_ips .cke_browser_iequirks .cke_rcombo .cke_text {
+    height: 22px;
+}
+.cke_skin_ips .cke_rcombo .cke_openbutton {
+    background-image: url("http://i78.servimg.com/u/f78/18/17/62/92/sprite10.png");
+    background-position: 5px -1002px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #8F8F73;
+    border-top: 1px solid #8F8F73;
+    display: inline-block;
+    height: 22px;
+    width: 14px;
+}
+.cke_skin_ips .cke_ltr .cke_rcombo .cke_openbutton {
+    border-bottom-right-radius: 3px;
+    border-right: 1px solid #8F8F73;
+    border-top-right-radius: 3px;
+}
+.cke_skin_ips .cke_rtl .cke_rcombo .cke_openbutton {
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #8F8F73;
+    border-top-left-radius: 3px;
+}
+.cke_skin_ips .cke_rcombo .cke_off a:hover .cke_text, .cke_skin_ips .cke_rcombo .cke_off a:focus .cke_text, .cke_skin_ips .cke_rcombo .cke_off a:active .cke_text, .cke_skin_ips .cke_rcombo .cke_on .cke_text {
+    border-color: #AAAAAA;
+}
+.cke_skin_ips .cke_rcombo .cke_off a:hover .cke_openbutton, .cke_skin_ips .cke_rcombo .cke_off a:focus .cke_openbutton, .cke_skin_ips .cke_rcombo .cke_off a:active .cke_openbutton, .cke_skin_ips .cke_rcombo .cke_on .cke_openbutton {
+    background-color: #EEEEEE;
+    border-color: #AAAAAA;
+}
+.cke_skin_ips .cke_rcombo .cke_on .cke_text {
+    border-bottom-left-radius: 0;
+}
+.cke_skin_ips .cke_rcombo .cke_on .cke_openbutton {
+    border-bottom-right-radius: 0;
+}
+.cke_skin_ips .cke_hc .cke_rcombo .cke_disabled .cke_label {
+    opacity: 0.7;
+}
+.cke_skin_ips .cke_rcombo .cke_disabled .cke_text, .cke_skin_ips .cke_rcombo .cke_disabled .cke_openbutton {
+    opacity: 0.5;
+}
+.cke_skin_ips .cke_hc .cke_rcombo .cke_disabled .cke_text, .cke_skin_ips .cke_hc .cke_rcombo .cke_disabled .cke_openbutton {
+    opacity: 0.8;
+}
+.cke_skin_ips .cke_rtl .cke_rcombo .cke_font .cke_text, .cke_skin_ips .cke_rtl .cke_rcombo .cke_fontSize .cke_text {
+    direction: ltr;
+}
+.cke_skin_ips .cke_rcombo .cke_label {
+    display: none;
+}
+.cke_skin_ips .cke_button_source .cke_icon {
+    background-position: 0 0;
+}
+.cke_skin_ips .cke_button_newpage .cke_icon {
+    background-position: 0 -48px;
+}
+.cke_skin_ips .cke_button_preview .cke_icon {
+    background-position: 0 -64px;
+}
+.cke_skin_ips .cke_button_cut .cke_icon {
+    background-position: 0 -96px;
+}
+.cke_skin_ips .cke_button_copy .cke_icon {
+    background-position: 0 -112px;
+}
+.cke_skin_ips .cke_button_paste .cke_icon {
+    background-position: 0 -128px;
+}
+.cke_skin_ips .cke_button_pastetext .cke_icon {
+    background-position: 0 -144px;
+}
+.cke_skin_ips .cke_button_find .cke_icon {
+    background-position: 0 -240px;
+}
+.cke_skin_ips .cke_button_replace .cke_icon {
+    background-position: 0 -256px;
+}
+.cke_skin_ips .cke_button_selectAll .cke_icon {
+    background-position: 0 -272px;
+}
+.cke_skin_ips .cke_button_removeFormat .cke_icon {
+    background-position: 0 -288px;
+}
+.cke_skin_ips .cke_button_bold .cke_icon {
+    background-position: 0 -304px;
+}
+.cke_skin_ips .cke_button_italic .cke_icon {
+    background-position: 0 -320px;
+}
+.cke_skin_ips .cke_button_underline .cke_icon {
+    background-position: 0 -336px;
+}
+.cke_skin_ips .cke_button_strike .cke_icon {
+    background-position: 0 -352px;
+}
+.cke_skin_ips .cke_button_subscript .cke_icon {
+    background-position: 0 -368px;
+}
+.cke_skin_ips .cke_button_superscript .cke_icon {
+    background-position: 0 -384px;
+}
+.cke_skin_ips .cke_button_table .cke_icon {
+    background-position: 0 -608px;
+}
+.cke_skin_ips .cke_button_horizontalrule .cke_icon {
+    background-position: 0 -624px;
+}
+.cke_skin_ips .cke_button_smiley .cke_icon {
+    background-position: 0 -640px;
+}
+.cke_skin_ips .cke_button_link .cke_icon {
+    background-position: 0 -528px;
+}
+.cke_skin_ips .cke_button_unlink .cke_icon {
+    background-position: 0 -544px;
+}
+.cke_skin_ips .cke_button_anchor .cke_icon {
+    background-position: 0 -560px;
+}
+.cke_skin_ips .cke_button_image .cke_icon {
+    background-position: 0 -576px;
+}
+.cke_skin_ips .cke_button_flash .cke_icon {
+    background-position: 0 -592px;
+}
+.cke_skin_ips .cke_button_specialchar .cke_icon {
+    background-position: 0 -656px;
+}
+.cke_skin_ips .cke_button_pagebreak .cke_icon {
+    background-position: 0 -672px;
+}
+.cke_skin_ips .cke_button_print .cke_icon {
+    background-position: 0 -176px;
+}
+.cke_skin_ips .cke_button_checkspell .cke_icon, .cke_skin_ips .cke_button_scayt .cke_icon {
+    background-position: 0 -192px;
+}
+.cke_skin_ips .cke_button_pagebreak .cke_icon {
+    background-position: 0 -672px;
+}
+.cke_skin_ips .cke_button_textcolor .cke_icon {
+    background-position: 0 -704px;
+}
+.cke_skin_ips .cke_button_bgcolor .cke_icon {
+    background-position: 0 -720px;
+}
+.cke_skin_ips .cke_button_form .cke_icon {
+    background-position: 0 -752px;
+}
+.cke_skin_ips .cke_button_checkbox .cke_icon {
+    background-position: 0 -768px;
+}
+.cke_skin_ips .cke_button_radio .cke_icon {
+    background-position: 0 -784px;
+}
+.cke_skin_ips .cke_button_textfield .cke_icon {
+    background-position: 0 -800px;
+}
+.cke_skin_ips .cke_button_textarea .cke_icon {
+    background-position: 0 -816px;
+}
+.cke_skin_ips .cke_button_showblocks .cke_icon {
+    background-position: 0 -1136px;
+}
+.cke_skin_ips .cke_button_select .cke_icon {
+    background-position: 0 -832px;
+}
+.cke_skin_ips .cke_button_button .cke_icon {
+    background-position: 0 -848px;
+}
+.cke_skin_ips .cke_button_imagebutton .cke_icon {
+    background-position: 0 -864px;
+}
+.cke_skin_ips .cke_button_hiddenfield .cke_icon {
+    background-position: 0 -880px;
+}
+.cke_skin_ips .cke_button_undo .cke_icon {
+    background-position: 0 -208px;
+}
+.cke_skin_ips .cke_rtl .cke_button_undo .cke_icon {
+    background-position: 0 -224px;
+}
+.cke_skin_ips .cke_button_redo .cke_icon {
+    background-position: 0 -224px;
+}
+.cke_skin_ips .cke_rtl .cke_button_redo .cke_icon {
+    background-position: 0 -208px;
+}
+.cke_skin_ips .cke_button_templates .cke_icon {
+    background-position: 0 -80px;
+}
+.cke_skin_ips .cke_button_numberedlist .cke_icon {
+    background-position: 0 -400px;
+}
+.cke_skin_ips .cke_button_bulletedlist .cke_icon {
+    background-position: 0 -416px;
+}
+.cke_skin_ips .cke_mixed_dir_content .cke_button_numberedlist .cke_icon {
+    background-position: 0 -1217px;
+}
+.cke_skin_ips .cke_mixed_dir_content .cke_button_bulletedlist .cke_icon {
+    background-position: 0 -1233px;
+}
+.cke_skin_ips .cke_button_outdent .cke_icon {
+    background-position: 0 -432px;
+}
+.cke_skin_ips .cke_button_indent .cke_icon {
+    background-position: 0 -448px;
+}
+.cke_skin_ips .cke_mixed_dir_content .cke_button_indent .cke_icon {
+    background-position: 0 -1265px;
+}
+.cke_skin_ips .cke_mixed_dir_content .cke_button_outdent .cke_icon {
+    background-position: 0 -1249px;
+}
+.cke_skin_ips .cke_button_justifyleft .cke_icon {
+    background-position: 0 -464px;
+}
+.cke_skin_ips .cke_button_justifycenter .cke_icon {
+    background-position: 0 -480px;
+}
+.cke_skin_ips .cke_button_justifyright .cke_icon {
+    background-position: 0 -496px;
+}
+.cke_skin_ips .cke_button_justifyblock .cke_icon {
+    background-position: 0 -512px;
+}
+.cke_skin_ips .cke_button_blockquote .cke_icon {
+    background-position: 0 -1152px;
+}
+.cke_skin_ips .cke_button_creatediv .cke_icon {
+    background-position: 0 -1168px;
+}
+.cke_skin_ips .cke_button_editdiv .cke_icon {
+    background-position: 0 -1184px;
+}
+.cke_skin_ips .cke_button_removediv .cke_icon {
+    background-position: 0 -1200px;
+}
+.cke_skin_ips .cke_button_flash .cke_icon {
+    background-position: 0 -592px;
+}
+.cke_skin_ips .cke_button_pastefromword .cke_icon {
+    background-position: 0 -160px;
+}
+.cke_skin_ips .cke_button_save .cke_icon {
+    background-position: 0 -32px;
+}
+.cke_skin_ips .cke_button_about .cke_icon {
+    background-position: 0 -736px;
+}
+.cke_skin_ips .cke_button_maximize .cke_icon {
+    background-position: 0 -1040px;
+}
+.cke_skin_ips .cke_button_editdiv .cke_icon {
+    background-position: 0 -1184px;
+}
+.cke_skin_ips .cke_button_bidirtl .cke_icon {
+    background-position: 0 -1072px;
+}
+.cke_skin_ips .cke_button_bidiltr .cke_icon {
+    background-position: 0 -1056px;
+}
+.cke_skin_ips .cke_button_iframe .cke_icon {
+    background-position: 0 -1279px;
+}
+.cke_skin_ips .cke_button_source .cke_label {
+    display: inline;
+}
+.cke_skin_ips .cke_styles_panel {
+    height: 170px;
+    width: 150px;
+}
+.cke_skin_ips .cke_format_panel {
+    height: 170px;
+    width: 150px;
+}
+.cke_skin_ips .cke_font_panel {
+    height: 170px;
+    width: auto;
+}
+.cke_skin_ips .cke_fontSize_panel {
+    height: 170px;
+}
+.cke_skin_ips .cke_fontSize .cke_text {
+    min-width: 40px;
+    width: auto;
+}
+.cke_skin_ips .cke_browser_iequirks .cke_fontSize .cke_text {
+    width: auto;
+}
+html .cke_skin_ips {
+    visibility: inherit;
+}
+html.cke_skin_ips_container {
+    visibility: visible;
+}
+.cke_skin_ips .cke_browser_ie7 .cke_openbutton, .cke_skin_ips .cke_browser_ie8 .cke_openbutton {
+    position: relative !important;
+    top: -10px !important;
+}
+
         .header {
             background: none repeat scroll 0 0 #B6C7DB;
             color: #1D3652;
@@ -181,44 +1171,10 @@
         .chatbox_row_2 {
             border-top: 0;
         }
-.shoutbox_text, .shoutbox_text > dl {
-  max-height: 100px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.shoutbox_text img {
-  max-height: 150px;
-  max-width: 150px;
-  transition: all 0.2s ease-in-out 0.2s;
-}
-.shoutbox_text img:hover {
-  cursor: url("http://i34.servimg.com/u/f34/18/17/62/92/lupa0110.png"), default;
-  max-height: 80%;
-  max-width: 80%;
-  transition: all 0.4s ease-in-out 0.4s;
-}
-#column_04 {
-  max-width: 730px;
-}
-
-#template_toolbar li#t_status.loading {
-  background-image: url("images/loading_white.gif");
-  background-position: 0 6px;
-  background-repeat: no-repeat;
-}
-
-#template_toolbar li#t_status {
-  background: none repeat scroll 0 0 transparent;
-  border: 0 none;
-  color: #6E6E6E;
-  cursor: default;
-  font-size: 11px;
-  height: 20px;
-  padding: 6px 0 0 25px;
-  width: 90px;
-}
-
-.desc, .desc.blend_links a, p.posted_info {
+        .shoutbox_text {
+            word-wrap: break-word;
+        }
+        .desc, .desc.blend_links a, p.posted_info {
             color: #777777;
             font-size: 12px;
         }
@@ -240,7 +1196,7 @@
             padding: 1px;
         }
         .maintitle {
-            background: url("http://i78.servimg.com/u/f78/18/17/62/92/mainti11.png") repeat-x scroll center top #2C5687;
+            background: url("http://www.autoitbrasil.com/public/style_images/master/maintitle.png") repeat-x scroll center top #2C5687;
             border-color: #316897;
             border-radius: 4px 4px 0 0;
             border-style: solid;
@@ -253,7 +1209,7 @@
             padding: 10px 10px 11px;
         }
         .maintitle .toggle {
-            background: url("http://i78.servimg.com/u/f78/18/17/62/92/cat_mi11.png") no-repeat scroll 0 0 transparent;
+            background: url("http://www.autoitbrasil.com/public/style_images/master/cat_minimize.png") no-repeat scroll 0 0 transparent;
             display: block;
             height: 25px;
             outline: 0 none;
@@ -320,7 +1276,7 @@
             text-align: center;
         }
         .input_submit {
-            background: url("http://i78.servimg.com/u/f78/18/17/62/92/topic_12.png") repeat-x scroll center top #212121;
+            background: url("http://www.autoitbrasil.com/public/style_images/master/topic_button.png") repeat-x scroll center top #212121;
             border-color: #212121;
             border-radius: 3px 3px 3px 3px;
             box-shadow: 0 1px 0 0 #5C5C5C inset, 0 2px 3px rgba(0, 0, 0, 0.2);
@@ -329,7 +1285,7 @@
             border-width: 1px;
             cursor: pointer;
             padding: 4px 10px;
-			/*margin-left: 4px;*/
+			margin-left: 4px;
             text-decoration: none;
         }
         .input_submit:hover {
@@ -342,28 +1298,7 @@
             font-variant: normal !important;
             font-weight: normal !important;
         }
-.input_text, .ipsTagBox_wrapper {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border-color: #848484 #C1C1C1 #E1E1E1;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    padding: 4px;
-}
-.input_text:focus {
-    border-color: #4E4E4E #7C7C7C #A3A3A3;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-input.inactive, select.inactive, textarea.inactive {
-    color: #C4C4C4;
-}
-.input_text.error {
-    background-color: #F3DDDD;
-}
-.input_text.accept {
-    background-color: #F1F6EC;
-}        
-		#message {
+        #message {
             background: none repeat scroll 0 0 #FFFFFF;
             border-color: #848484 #C1C1C1 #E1E1E1;
             border-radius: 2px 2px 2px 2px;
@@ -390,190 +1325,3 @@ input.inactive, select.inactive, textarea.inactive {
             cursor: n-resize;
             height: 6px;
         }
-#shoutbox-smilies-button_menucontent span.pager {
-    display: inline-block;
-    width: 20px;
-}
-#shoutbox-smilies-button_menucontent table {
-    border: 1px solid #D5DDE5;
-    border-collapse: separate;
-}
-div.sceditor-toolbar {
-    -moz-user-select: none;
-    background: none repeat scroll 0 0 padding-box #F7F7F7;
-    border-bottom: 1px solid silver;
-    border-radius: 3px 3px 0 0;
-    line-height: 0;
-    overflow: hidden;
-    padding: 3px 5px 2px;
-}
-.sceditor-container, .sceditor-container div, div.sceditor-dropdown, div.sceditor-dropdown div {
-    margin: 0;
-    padding: 0;
-    z-index: 3;
-}
-div.sceditor-group {
-    background: none repeat scroll 0 0 padding-box #DDDDDD;
-    border-bottom: 1px solid #AAAAAA;
-    border-radius: 3px 3px 3px 3px;
-    display: inline-block;
-    margin: 1px 5px 1px 0;
-    padding: 1px;
-}
-.sceditor-button, .sceditor-button div {
-    display: block;
-}
-.sceditor-button {
-    background-clip: padding-box;
-    border-radius: 3px 3px 3px 3px;
-    cursor: pointer;
-    float: left;
-    height: 20px;
-    padding: 3px 5px;
-    text-indent: -9999px;
-    width: 16px;
-}
-.popupInner h3 {
-    background: url("http://forum.autoitbrasil.com/public/style_images/master/maintitle.png") repeat-x scroll center top #2C5687;
-    border-color: #316897;
-    border-style: solid;
-    border-width: 1px 1px 0;
-    box-shadow: 0 1px 0 #528CBC inset;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 300;
-    padding: 8px 10px 9px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-.message.error {
-    background-color: #F3E3E6;
-    border-color: #E599AA;
-    color: #80001C;
-}
-.popupClose {
-    position: absolute;
-    right: 16px;
-    top: 12px;
-}
-.clickable {
-    cursor: pointer;
-}
-
-/* blockquote quote, spoiler */
-.codebox.spoiler, blockquote {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background: none repeat scroll 0 0 #F7F7F7;
-  border-image: none;
-  border-radius: 5px 5px 5px 5px;
-  border-style: solid;
-  border-width: 2px;
-  margin: 0;
-  overflow-x: auto;
-}
-cite, .codebox.spoiler dt {
-	background: url("http://i34.servimg.com/u/f34/18/17/62/92/captur13.png") repeat-x scroll 0 0 #F2F2F2;
-    border-radius: 5px 5px 0 0;
-    font-size: 12px;
-    font-weight: 700;
-    overflow-x: auto;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
-    padding-right: 10px;
-	padding: 8px 10px;
-}
-.codebox.spoiler {
-	padding: 5px 5px 0;
-}
-.codebox.spoiler dt {
-    cursor: pointer;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: -4px;
-    padding-bottom: 4px;
-    padding-top: 0;
-}
-.spoiler_content.hidden {
-  display: block;
-}
-.spoiler_content {
-  display: none;
-}
-.codebox dt {
-  border-bottom: 1px dotted #DDDDDD;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: -4px;
-    padding-bottom: 4px;
-    padding-top: 0;  
-}
-
-.codebox dd {
-    background: none repeat scroll 0 0 #F7F7F7 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-/* syntaxhighlighter */
-code.punbb_block, pre.punbb_block {
-  background-color: #FAFAFA !important;
-  border: 1px solid #C9C9C9 !important;
-  color: #000000;
-  font-family: Consolas,"Bitstream Vera Sans Mono","Andale Mono",Monaco,"DejaVu Sans Mono","Lucida Console",monospace !important;
-  font-size: 11px !important;
-  line-height: 110% !important;
-  max-height: 250px !important;
-  overflow: auto !important;
-  padding: 5px !important;
-  white-space: pre-wrap !important;
-  width: auto !important;
-}
-.punbbtop {
-    background: url("http://i34.servimg.com/u/f34/18/17/62/92/punbb_11.png") no-repeat scroll right center #E3E9F2;
-    color: #1D3652;
-    font-size: 10px;
-    font-weight: bold;
-    line-height: 100%;
-    /*margin-left: 10px;*/
-    margin-top: 5px;
-    padding: 2px 1px 2px 3px;
-}
-.punbbtop button {
-    background: -moz-linear-gradient(center top , #EDEDED 5%, #DFDFDF 100%) repeat scroll 0 0 #EDEDED;
-    border: 1px solid #BBBBBB;
-    border-radius: 3px 3px 3px 3px;
-    color: #1D3652;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 10px;
-    padding: 0 6px;
-    text-decoration: none;
-}
-.punbbtop button:hover {
-    background: -moz-linear-gradient(center top , #DFDFDF 5%, #EDEDED 100%) repeat scroll 0 0 #DFDFDF;
-    border-color: #9A9A9A;
-    color: #3D70A3;
-}
-.punbbtop button:active {
-    position: relative;
-    top: 1px;
-}
-pre.punbb_block.expand,
-code.punbb_block.expand {
-    max-height: 100% !important;
-}
-
-/* programando.forum-pro.net */
-.maintitle_programando {
-  background-color: #E04547;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25) inset;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-weight: 300;
-  padding: 16px;
-}
-.cke_dialog_tabs.programando {
-  background: none repeat scroll 0 0 #E04547 !important;
-}
